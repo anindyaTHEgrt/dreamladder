@@ -1,0 +1,138 @@
+/*Fonts Packs*/
+
+
+.rubik-rubik {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.radio-canada-big-radiocan {
+    font-family: "Radio Canada Big", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 551;
+    font-style: normal;
+}
+
+.playfair-display-playfair {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 580;
+  font-style: normal;
+}
+
+.raleway-raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 398;
+  font-style: normal;
+}
+
+.oxygen-regular {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/*End of Font Packs*/
+
+#navbarlogo{
+    width: 9%;
+    margin-left: 10%;
+}
+
+#vertline{
+    border-left: 2px solid rgb(159, 158, 158);
+    height: 5vw;
+    margin-left: 0.7%;
+}
+
+#navbtncontent{
+    font-family: "Radio Canada Big", sans-serif;
+    margin-right: 8%;
+    font-size: 120%;
+}
+
+#navbtncontent:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+#bgimg1{
+    
+    width: 90%;
+}
+
+#contentbox1{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    background-color: rgb(243, 240, 240);
+}
+
+#cbtext1{
+    font-size: 150%;
+}
+
+#glasscontainer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    background-attachment: fixed; 
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 35vw; 
+    background-image: url(assets/stocksbg.jpg); 
+}
+
+
+#glasscard {
+    width: 80vw;
+    height: 33vw;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+}
+  
+#glasscard:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, 0.01);
+    filter: blur(10px);
+    margin: -20px;
+}
+
+#contentbox2{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    background-color: rgb(0, 0, 0);
+}
+
+#cbtext2{
+    color: white;
+    font-size: 150%;
+}
+
+#layerbox{
+    height: 10vw;
+    width: 10vw;
+    border: white;
+}

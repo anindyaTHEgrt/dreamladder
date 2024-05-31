@@ -13,34 +13,40 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 
 </head>
+<script>
+    
+</script>
 <body style="margin: 0;">
 
     <!-- ------------------------ NAVBAR------------------------------------------------------------------------------->
     <div id="navbar" style="display: inline-flex; padding: 2%; height: 100%;">
-        <img id="navbarlogo" src="assets\dl-grey.png" alt="">
+        <a href="index.html" style="margin-right: 1vw;"><img id="navbarlogo" src="assets\dl-grey.png" alt=""></a>
         <div id="vertline"></div>
         <div style=" margin-left: 1%; width: 5vw; ">
             <p style="font-size: 1vw; font-family: 'Rubik', sans-serif;" >Investment Advisors</p>
         </div>
         <div id="navbtn" style=" height: 3vw; display: inline-flex; padding-top: 1.8%; width: 53vw; margin-left: 27vw;">
-            <a id="navbtncontent">About Us</a>
-            <a id="navbtncontent">Philosophy</a>
-            <a id="navbtncontent">Process</a>
-            <a id="navbtncontent">Why Us </a>
-            <a id="navbtncontent">Insights</a>
-            <a id="navbtncontent">Contact Us</a>
+            <a id="navbtncontent" href="#contentbox1">About Us</a>
+            <a id="navbtncontent" href="#glasscontainer">Philosophy</a>
+            <a id="navbtncontent" href="#proc">Process</a>
+            <a id="navbtncontent" href="#contentbox2">Why Us </a>
+            <a id="navbtncontent" href="insights.html">Insights</a>
+            <a id="navbtncontent" href="#contactus">Contact Us</a>
+            
         </div>
     </div>
     <div style=" display: flex; justify-content: center;">
-        <img id="bgimg1" src="assets\bg1.jpg" alt="">
-        <p style="font-family: 'Playfair Display', serif; font-size: 2.5vw; position: absolute; top: 15vw;">"Successful investing is <br> about managing risk, <br> not avoiding it."  <br>- Benjamin Graham</p>
+        <img id="bgimg1" src="assets\bg2.jpg" alt="">
+        <p style="color: rgb(255, 255, 255); font-family: 'Playfair Display', serif; font-size: 3vw; text-shadow: 1px 1px 2px rgb(48, 44, 44), 0 0 1em rgb(50, 50, 50), 0 0 0.2em rgb(91, 91, 109); position: absolute; top: 20vw;">"Successful investing is <br> about managing risk, <br> not avoiding it."  <br>- Benjamin Graham</p>
     </div>
 
     <!-- --ABOUT US---------------------------------------------------------------------------------------->
     <div id="contentbox1">
         <p style="text-align: center; font-family: 'Oxygen', sans-serif; color: rgb(83, 83, 83); font-size: 2vw; ">ABOUT US</p>
         <div id="headunderline"></div>
-        <div style="width: 50vw; margin-left: auto; margin-right: auto;">
+        <div style="width: 50vw; margin-left: auto; margin-right: auto; @media screen {
+            width: 100%;
+        }">
             <p id="cbtext1" style="text-align: center; font-family: 'Raleway', sans-serif; color: rgb(45, 45, 45);">Dreamladder Investment Advisors
              Pvt Ltd was founded by <b>Sanjeev B Zarbade</b> in 2021 after his 16 year stint with Kotak Securities to offer investment
               management services. We obtained a Registered Investment Advisory (RIA) license from SEBI in 2021.  Our core offering
@@ -111,7 +117,7 @@
            </div>
         </div>
     </div>
-    <div id="philo" style="margin-bottom: 5vw;">
+    <div id="proc" style="margin-bottom: 5vw;">
         <p style="text-align: center; color: rgb(83, 83, 83); font-family: 'Oxygen', sans-serif; font-size: 2vw;">INVESTING PROCESS</p>
         <div id="headunderline"></div>
         <div style=" display: flex; justify-content: center;">
@@ -189,14 +195,10 @@
                     <div id="whyusbox">
                         <div id="wwophotodiv">
                             <div style="display: flex; justify-content: center;">
-                                <img id="ringimg" src="assets\ringvector.svg" alt="">
+                                <img id="ringimg" src="assets\brainstorm.png" alt="">
                             </div>
-                            <p style="color: rgb(83, 83, 83);font-size: 2vw; text-align: center; margin-top: 1vw; font-family: 'Oxygen', sans-serif;">ABCD</p>
-                            <p style="color: rgb(83, 83, 83);font-size: 0.8vw; text-align: center; font-family: 'Raleway', sans-serif;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                                 Aspernatur vel iste provident distinctio a aliquam  <br>
-                                 aperiam dolores soluta natus sed.
-                            </p>
-    
+                            <p style="color: rgb(83, 83, 83);font-size: 1.7vw; text-align: center; margin-top: 1vw; font-family: 'Oxygen', sans-serif;">Experienced Team</p>
+                                
                         </div>
                     </div>
                 </div>
@@ -207,7 +209,7 @@
     <div id="horiline2"></div>
 
     <!-- ---FORM-----------------------------------------------------------------  -->
-    <div style="display: inline-flex;">
+    <div id="contactus" style="display: inline-flex;">
         <div class="formbold-main-wrapper" style=" margin-left: 32vw;">
             <div class="formbold-form-wrapper">
                 <p style="color: rgb(83, 83, 83); font-size: 2vw; text-align: center; margin-bottom: 2.5vw; font-family: 'Oxygen', sans-serif;">Get in touch</p>
@@ -299,13 +301,13 @@
         <div id="linkdiv" style="display: inline-flex;">
             <div id="implinkdiv">
                 <p id="listhead">COMPANY INFORMATION</p>
-                <p id="implinks"><b>DreamLadder Investment Advisors</b> <br>
+                <p id="implinks"><b>Dreamladder Advisors</b> <br>
 
-                    CIN- U74110MH2015PTC269642 <br>
+                    GST - 27AADPZ6982D1Z6 <br>
                     
-                    SEBI Reg : INP000005125 <br>
+                    SEBI Reg : INA000016311 <br>
                     
-                    Investor Grievances Id: complaints@valentisadvisors.com <br>
+                    Investor Grievances Id: info@dreamladderadvisors.com <br>
                     
                     You can also lodge your grievances with SEBI at https://scores.gov.in <br>
                     
@@ -329,12 +331,12 @@
                 <p id="listhead">CONTACT US</p>
                 <div style="display: inline-flex;">
                     <img id="ctusimg" src="assets/gmailicon.png" alt="">
-                    <p id="implinks">info@dreamladdercapital.com</p>
+                    <p id="implinks">info@dreamladderadvisors.com</p>
                 </div>
                 <br>
                 <div style="display: inline-flex;">
                     <img id="ctusimg" src="assets/phoneicon.png" alt="">
-                    <p id="implinks">+91 89-0808-2222</p>
+                    <p id="implinks">+91 8591217701</p>
                 </div>
                 <br>
                 <div style="display: inline-flex;">
@@ -347,7 +349,7 @@
 
         </div>   
     </div>
-    <div id="btmfooter"><p style=" font-size: 1vw; color: rgb(255, 255, 255); text-align: center;">&copy; &ensp; 2024 &ensp; DreamLadder Investment Advisors</p></div>
+    <div id="btmfooter"><p style=" font-size: 1vw; color: rgb(255, 255, 255); text-align: center;">&copy; &ensp; 2024 &ensp; Dreamladder Advisors</p></div>
 
 </body>
 </html>

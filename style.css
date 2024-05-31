@@ -85,16 +85,15 @@ html {
     background-color: rgb(255, 255, 255);
 }
 
+#cbtdiv{
+    width: 50vw;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
 #cbtext1{
     font-size: 1.3vw;
 }
-
-@media screen and (max-width: 425px) {
-    .left, .main, .right {
-      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-    }
-}
-
 
 #glasscontainer{
     
@@ -106,9 +105,16 @@ html {
     display: grid;
     align-items: center;
     justify-content: center;
-    height: 35vw; 
+    height: fit-content; 
     background-color: #f3f3f3; 
 }
+
+#wwodiv{
+    display: inline-flex;
+    width: 100%; 
+    margin-left: 3%;
+}
+
 
 
 #glasscard {
@@ -404,7 +410,7 @@ body {
     width: 100%;
 }
 
-/*    ----------- Insight page --------------------*/
+/*    ----------------------------------------------------------------- Insight page --------------------*/
 #reportimg{
     width: 7vw;
     margin-top: 1vw;
@@ -422,4 +428,14 @@ body {
 
 #pdfbtn:hover{
     background-color: rgb(103, 146, 154);
+}
+
+
+/* ---------------------- @media ---------------------------------------------------------------------------*/
+@media screen and (max-width: 426px) {
+    #cbtdiv{
+        width: 100%;
+        margin-left: auto; 
+        margin-right: auto;
+    }
 }

@@ -72,8 +72,25 @@ html {
     transition: width .5s ease, background-color .5s ease;
 }
 
+#imgquotetext{
+    color: rgb(255, 255, 255);
+    font-family: 'Playfair Display',serif; 
+    font-size: 3vw; 
+    text-shadow: 1px 1px 2px rgb(48, 44, 44),0 0 1em rgb(50, 50, 50), 0 0 0.2em rgb(91, 91, 109); 
+    position: absolute; 
+    top: 20vw;
+}
+
 #bgimg1{
     width: 100%;
+}
+
+
+#abtusheading{
+    text-align: center; 
+    font-family: 'Oxygen', sans-serif; 
+    color: rgb(83, 83, 83);
+     font-size: 2vw; 
 }
 
 #contentbox1{
@@ -93,6 +110,16 @@ html {
 
 #cbtext1{
     font-size: 1.3vw;
+    text-align: center; 
+    font-family: 'Raleway', sans-serif;
+    color: rgb(45, 45, 45);
+}
+
+#inphilhead{
+    text-align: center;
+    color: rgb(83, 83, 83);
+    font-size: 2vw;
+    font-family: 'Oxygen', sans-serif;
 }
 
 #glasscontainer{
@@ -105,7 +132,7 @@ html {
     display: grid;
     align-items: center;
     justify-content: center;
-    height: fit-content; 
+    height: 40vw; 
     background-color: #f3f3f3; 
 }
 
@@ -160,16 +187,6 @@ html {
     
 }
 
-#contentbox2{
-    padding-top: 1%;
-    padding-bottom: 1%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    height: 63vw;
-    background-color: rgb(255, 255, 255);
-}
-
 #cbtext2{
     color: rgb(217, 217, 217);
     font-size: 150%;
@@ -193,12 +210,74 @@ html {
 }
 
 #ringimg{
-    
     width: 12vw;
     margin-top: 1vw;
 }
+
+#inphilhead2{
+    color: rgb(83, 83, 83);
+    font-size: 1.5vw; 
+    text-align: center; 
+    margin-top: 1vw; 
+    font-family: 'Oxygen', sans-serif;
+}
+
+#inphilcont{
+    color: rgb(106, 106, 106);
+    font-size: 1vw; 
+    text-align: center; 
+    font-family: 'Raleway', sans-serif;
+}
+
 #wwobox:hover { 
     box-shadow: 0.2vw 0.1vw 1vw   rgba(86, 84, 84, 0.773);
+}
+
+#invprochead{
+    text-align: center; 
+    color: rgb(83, 83, 83); 
+    font-family: 'Oxygen', sans-serif; 
+    font-size: 2vw;
+}
+
+#invprocimg{
+    width: 60%; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#contentbox2{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 63vw;
+    background-color: rgb(255, 255, 255);
+}
+
+#whyushead{
+    text-align: center; 
+    color: rgb(83, 83, 83); 
+    font-family: 'Oxygen', sans-serif; 
+    font-size: 2vw;
+}
+
+#ringimg2{
+    width: 12vw;
+    margin-top: 1vw;
+}
+
+#whyustext{
+    color: rgb(83, 83, 83);
+    font-size: 1.7vw; 
+    text-align: center; 
+    margin-top: 1vw; 
+    font-family: 'Oxygen', sans-serif;
+}
+
+#layer1{
+    margin-left:17vw;
 }
 
 #whyusbox{
@@ -206,8 +285,7 @@ html {
     height: 25vw;
     width: 18vw;
     border: 10px;
-    border-color: aliceblue;
-    
+    border-color: aliceblue;   
 }
 #whyusbox:hover { 
     border-radius: 0.3vw;
@@ -270,12 +348,23 @@ html {
     margin-top: 1.2vw;
 }
 
+#contactus{
+    display: inline-flex;
+}
 
+#getintouchhead{
+    color: rgb(83, 83, 83); 
+    font-size: 2vw; 
+    text-align: center; 
+    margin-bottom: 2.5vw; 
+    font-family: 'Oxygen', sans-serif;
+}
 
 body {
     font-family: "Inter", sans-serif;
 }
 .formbold-main-wrapper {
+    margin-left: 32vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -347,6 +436,11 @@ body {
 }
 .formbold-btn:hover {
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+#ctinfodiv{
+    margin-left: 10vw; 
+    margin-top: 4vw;
 }
 
 #headcont{
@@ -433,9 +527,211 @@ body {
 
 /* ---------------------- @media ---------------------------------------------------------------------------*/
 @media screen and (max-width: 426px) {
+
+    #imgquotetext{
+        font-size: 5vw;
+    }
+
+    #abtusheading{
+        font-size: 5vw;
+    }
+    #contentbox1{
+        width: 70%;
+
+    }
+
+    #cbtext1{
+        font-size: 3vw;
+    }
+    
     #cbtdiv{
         width: 100%;
         margin-left: auto; 
         margin-right: auto;
+    }
+
+    #inphilhead{
+        font-size: 5vw;
+    }
+
+    #wwodiv{
+        
+        width: 100%; 
+        margin-left: 3%;
+    }
+
+    #glasscontainer{
+        height: 265vw; 
+    }
+
+    #glasscard{
+        height: 265vw;
+    }
+
+    #wwodiv{
+        display: block;
+        width: 80%; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #wwobox{
+        margin-left: auto;
+        margin-right: auto;
+        height: 60vw;
+        width: 36vw;
+    }
+
+    #ringimg{
+    
+        width: 25vw;
+        margin-top: 2vw;
+    }
+
+    #inphilhead2{
+        font-size: 5vw; 
+    }
+    
+    #inphilcont{
+        font-size: 2.7vw; 
+    }
+
+    #invprochead{
+        font-size: 5vw;
+    }
+
+    #invprocimg{
+        width: 100%; 
+        
+    }
+
+    #contentbox2{
+        
+        width: 100%;
+        height: 95vw;
+        
+    }
+
+    #whyushead{
+        font-size: 5.5vw;
+    }
+
+    #layer1{
+        margin-left: 2.5vw;
+    }
+
+    #whyusbox{
+        
+        height: 35vw;
+        width: 28vw;
+        border: 10px;
+        border-color: aliceblue;   
+    }
+
+    #ringimg2{
+        width: 18vw;
+        margin-top: 1vw;
+    }
+
+    #whyustext{
+        
+        font-size: 3vw; 
+    }
+
+    #contactus{
+        display: grid;
+    }
+
+    #getintouchhead{
+        font-size: 6vw; 
+    }
+
+    .formbold-main-wrapper {
+        margin-left: 10vw;
+    }
+
+    .formbold-input-flex > div {
+        width: 80%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .formbold-textarea {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .formbold-form-input {
+        width: 80%;
+        padding-bottom: 0vw;
+        border: none;
+        border-bottom: 0.15vw solid #c3d7f5;
+        background: #FFFFFF;
+        font-weight: 500;
+        font-size: 2vw;
+        color: #07074D;
+        outline: none;
+        resize: none;
+    }
+    .formbold-form-input::placeholder {
+        color: #536387;
+    }
+    .formbold-form-input:focus {
+        border-color: #6A64F1;
+    }
+    .formbold-form-label {
+        color: #07074D;
+        font-weight: 500;
+        font-size: 2.5vw;
+        display: block;
+        margin-bottom: 0.5vw;
+    }
+    .formbold-form-input:focus + .formbold-form-label {
+        color: #6A64F1;
+    }
+    
+    
+    .formbold-btn {
+        font-size: 2vw;
+        border-radius: 0.5vw;
+        padding: 1vw 1vw;
+        border: none;
+        font-weight: 500;
+        background-color: #6A64F1;
+        color: white;
+        cursor: pointer;
+        margin-top: 1vw;
+    }
+    .formbold-btn:hover {
+        box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    #ctinfodiv{
+        margin-left: 1vw;
+        margin-top: 4vw;
+        display: inline-flex;
+    }
+
+   #infocontdiv1{
+    width: auto;
+    width: 31.5vw;
+    padding: 0%;
+   }
+   #infocontdiv2{
+    width: auto;
+    width: 35vw;
+    padding: 0%;
+   }
+   
+
+    #headcont{
+        width: 100%;
+        font-size: 3.5vw;
+        
+    }
+    
+    #infocont{
+        width: 60%;
+        font-size: 2.3vw;  
+          
     }
 }

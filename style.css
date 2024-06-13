@@ -53,10 +53,14 @@ html {
     margin-left: 10%;
 }
 
+#invadtxt{
+    font-size: 1vw; font-family: 'Rubik', sans-serif;
+}
+
 #vertline{
     border-left: 0.1vw solid rgb(159, 158, 158);
     height: 5vw;
-    margin-left: 0.7%;
+    margin-left: 10%;
 }
 
 #navbtncontent{
@@ -64,6 +68,18 @@ html {
     color: rgb(120, 120, 120);
     margin-right: 2vw;
     font-size: 1.2vw;
+}
+
+#navbar{
+    display: inline-flex; padding: 2%; height: 100%;
+}
+
+#navbarlogodiv{
+    display: inline-flex;
+}
+
+#navbtn{
+    height: 3vw; display: inline-flex; padding-top: 1.8%; width: 53vw; margin-left: 27vw;
 }
 
 #navbtncontent:hover {
@@ -178,6 +194,8 @@ html {
     margin-right: 2.5vw;
     margin-left: 2.5vw;
 }
+
+
 
 #linehori{
     border-bottom: 0.1vw solid rgba(159, 158, 158, 0.297);
@@ -301,7 +319,7 @@ html {
 }
 
 #vertlinefooter{
-    border-left: 2px solid rgb(40, 40, 40);
+    border-left: 1.5px solid rgb(40, 40, 40);
     height: 5vw;
     margin-left: 1vw;
 }
@@ -346,6 +364,10 @@ html {
     height: 1.5vw;
     margin-right: 1.3vw;
     margin-top: 1.2vw;
+}
+
+#footerinvadtxt{
+    font-size: 1vw; font-family: 'Rubik', sans-serif; color: rgb(151, 151, 151);
 }
 
 #contactus{
@@ -706,7 +728,7 @@ body {
     }
 
     #ctinfodiv{
-        margin-left: 1vw;
+        margin-left: 2vw;
         margin-top: 4vw;
         display: inline-flex;
     }
@@ -734,4 +756,90 @@ body {
         font-size: 2.3vw;  
           
     }
+
+    #linkdiv{
+        display: block;
+    }
+
+    #implinkdiv{
+        margin-left: 5vw;
+        margin-bottom: 6vw;
+    }
+
+    #listhead{
+        text-align:left;
+        font-size: 3.5vw;
+    }
+
+    #implinks{
+        font-size: 2vw;
+    }
+
+    #implinksul{
+        font-size: 2vw;
+    }
+
+    #implinklist{
+        text-align: left;
+        padding-left: 2vw;
+    }
+
+    #ctusimg{
+        width: 3vw;
+        height: 3vw;
+        margin-right: 1.3vw;
+        margin-top: 2.5vw;
+    }
+
+    #footerinvadtxt{
+        font-size: 2vw; font-family: 'Rubik', sans-serif; color: rgb(151, 151, 151);
+    }
+
+    #vertlinefooter{
+        
+        height: 7.9vw;
+        margin-left: 1vw;
+    }
+
+    #navbarlogo{
+        width: 15vw;
+        height: 7.8vw;
+        margin-left: 10%;
+    }
+
+    #invadtxt{
+        font-size: 2vw; font-family: 'Rubik', sans-serif;
+    }
+
+    #navbar{
+        display: block; padding: 2%; height: 100%;
+    }
+
+    #vertline{
+        
+        height: 8vw;
+        margin-left: 10%;
+    }
+
+    #navbtn{
+        margin-top: 1vw;
+        height: 3vw; 
+        display: inline-flex; 
+        padding-top: 1.8%; 
+        width: 100%; 
+        margin-left: 0vw;
+    }
+
+    #navbarlogodiv{
+        margin-left: 33vw;
+        display: inline-flex;
+    }
+
+    #navbtncontent{
+        font-family: "Radio Canada Big", sans-serif;
+        color: rgb(120, 120, 120);
+        margin-left: 3.5vw;
+        font-size: 2.5vw;
+    }
+
 }

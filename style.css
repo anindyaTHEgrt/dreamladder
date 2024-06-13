@@ -117,7 +117,7 @@ html {
 
 #inphilhead{
     text-align: center;
-    color: rgb(83, 83, 83);
+    color: rgb(83, 83, 83); 
     font-size: 2vw;
     font-family: 'Oxygen', sans-serif;
 }
@@ -526,7 +526,7 @@ body {
 
 
 /* ---------------------- @media ---------------------------------------------------------------------------*/
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 500px) {
 
     #imgquotetext{
         font-size: 5vw;

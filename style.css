@@ -72,6 +72,7 @@ html {
 
 #navbar{
     display: inline-flex; padding: 2%; height: 100%;
+    
 }
 
 #navbarlogodiv{
@@ -521,15 +522,62 @@ body {
     margin-right: auto;
 }
 
+
+
+/*    ----------------------------------------------------------------- Insight page --------------------*/
+
+
 #insightdiv{
     padding: 0vw;
     width: 100%;
 }
 
-/*    ----------------------------------------------------------------- Insight page --------------------*/
+#insightshead{
+    text-align: center; 
+    font-family: 'Oxygen', sans-serif; 
+    color: rgb(83, 83, 83); 
+    font-size: 2vw; 
+}
+
+#pdfbox{
+    color: white;
+    height: 25vw;
+    width: 18vw;
+    border: 10px;
+    border-color: aliceblue;   
+}
+#pdfbox:hover { 
+    border-radius: 0.3vw;
+    background-color: rgb(243, 243, 243);
+}
+
 #reportimg{
     width: 7vw;
     margin-top: 1vw;
+}
+
+#reporthead{
+    color: rgb(83, 83, 83);
+    font-size: 1.3vw; 
+    text-align: center; 
+    margin-top: 1vw; 
+    font-family: 'Oxygen', sans-serif;
+}
+
+#pdftitle1{
+    color: rgb(83, 83, 83);
+    font-size: 1.3vw; 
+    text-align: center; 
+    margin-top: 1vw; 
+    font-family: 'Oxygen', sans-serif;
+}
+
+#pdftitle2{
+    color: rgb(83, 83, 83);
+    font-size: 1vw; 
+    text-align: center; 
+    margin-top: 1vw; 
+    font-family: 'Oxygen', sans-serif;
 }
 
 #pdfbtn{
@@ -544,6 +592,12 @@ body {
 
 #pdfbtn:hover{
     background-color: rgb(103, 146, 154);
+}
+
+#linehorinsights{
+    border-bottom: 0.1vw solid rgba(159, 158, 158, 0.297);
+    width: 64vw;
+    margin-top: 2vw;
 }
 
 
@@ -768,7 +822,7 @@ body {
 
     #listhead{
         text-align:left;
-        font-size: 3.5vw;
+        font-size: 3vw;
     }
 
     #implinks{
@@ -841,5 +895,54 @@ body {
         margin-left: 3.5vw;
         font-size: 2.5vw;
     }
+    /*    ----------------------------------------------------------------- Insight page --------------------*/
+
+    #pdfbox{
+        
+        height: 57vw;
+        width: 28vw;
+        border: 10px;
+        border-color: aliceblue;   
+    }
+
+    #insightshead{
+         
+        font-size: 4vw; 
+    }
+
+    #reportimg{
+        width: 17vw;
+        margin-top: 2vw;
+    }
+    #reporthead{
+        font-size: 4vw; 
+        margin-top: 1vw; 
+    }
+
+    #pdftitle1{       
+        font-size: 3vw; 
+        margin-top: 2vw;      
+    }
+    
+    #pdftitle2{
+        font-size: 2vw; 
+        text-align: center; 
+        margin-top: 0.5vw; 
+        font-family: 'Oxygen', sans-serif;
+    }
+
+    #pdfbtn{
+        width: 18vw;
+        height: 3.5vw;
+        margin-left: 5.6vw;
+        font-size: 2vw;
+    }
+
+    #linehorinsights{
+        border-bottom: 0.1vw solid rgba(159, 158, 158, 0.297);
+        width: 64vw;
+        margin-top: 2vw;
+    }
+
 
 }

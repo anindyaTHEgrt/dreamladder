@@ -19,42 +19,43 @@
 <body style="margin: 0;">
 
     <!-- ------------------------ NAVBAR------------------------------------------------------------------------------->
-    <div id="navbar" style="display: inline-flex; padding: 2%; height: 100%;">
-        <a href="index.html" style="margin-right: 1vw;"><img id="navbarlogo" src="assets\dl-grey.png" alt=""></a>
-        <div id="vertline"></div>
-        <div style=" margin-left: 1%; width: 5vw; ">
-            <p style="font-size: 1vw; font-family: 'Rubik', sans-serif;" >Investment Advisors</p>
+    <div id="navbar">
+        <div id="navbarlogodiv">
+            <a href="index.html" style="margin-right: 1vw;"><img id="navbarlogo" src="assets\dl-grey.png" alt=""></a>
+            <div id="vertline"></div>
+            <div style=" margin-left: 5%; width: 5vw; ">
+                <p id="invadtxt">Investment Advisors</p>
+            </div>
         </div>
-
-        <div id="navbtn" style=" height: 3vw; display: inline-flex; padding-top: 1.8%; width: 53vw; margin-left: 27vw;">
-            <a id="navbtncontent" href="#contentbox1">About Us</a>
-            <a id="navbtncontent" href="#glasscontainer">Philosophy</a>
-            <a id="navbtncontent" href="#proc">Process</a>
-            <a id="navbtncontent" href="#contentbox2">Why Us </a>
-            <a id="navbtncontent">Insights</a>
-            <a id="navbtncontent" href="#contactus">Contact Us</a>
+        <div id="navbtn">
+            <a id="navbtncontent" href="index.html#contentbox1">About Us</a>
+            <a id="navbtncontent" href="index.html#glasscontainer">Philosophy</a>
+            <a id="navbtncontent" href="index.html#proc">Process</a>
+            <a id="navbtncontent" href="index.html#contentbox2">Why Us </a>
+            <a id="navbtncontent" href="index.htmlinsights.html">Insights</a>
+            <a id="navbtncontent" href="index.html#contactus">Contact Us</a>
             
         </div>
     </div>
     
     <div  id="insightdiv">
         <div id="horiline2"></div>
-        <p style="text-align: center; font-family: 'Oxygen', sans-serif; color: rgb(83, 83, 83); font-size: 2vw; ">INSIGHTS</p>
+        <p id="insightshead">INSIGHTS</p>
         <div id="headunderline"></div>
 
         <div id="contentbox2">
             <div id="layer1" style="margin-left:17vw;">
                 <div id="layerbox">
                     <div style="display: inline-flex;">
-                        <div id="whyusbox">
+                        <div id="pdfbox">
                             <div id="wwophotodiv">
-                                <p style="color: rgb(83, 83, 83);font-size: 1.3vw; text-align: center; margin-top: 1vw; font-family: 'Oxygen', sans-serif;"><mark style="background-color: rgb(224, 250, 255);">Report</mark></p>
+                                <p id="reporthead"><mark style="background-color: rgb(224, 250, 255);">Report</mark></p>
                                 
                                 <div style="display: flex; justify-content: center;">
                                     <img id="reportimg" src="assets\report.png" alt="">
                                 </div>
-                                <p style="color: rgb(83, 83, 83);font-size: 1.3vw; text-align: center; margin-top: 1vw; font-family: 'Oxygen', sans-serif;">Equitas Small <br> Finance Bank</p>
-                                <p style="color: rgb(83, 83, 83);font-size: 1vw; text-align: center; margin-top: 1vw; font-family: 'Oxygen', sans-serif;">Special Opportunity  <br>played out well</p>
+                                <p id="pdftitle1">Equitas Small <br> Finance Bank</p>
+                                <p id="pdftitle2" >Special Opportunity  <br>played out well</p>
                                 <button id="pdfbtn" onclick="openPDF()">Open PDF</button>
                                 <script>
                                     function openPDF() {
@@ -64,15 +65,15 @@
                             </div>
                         </div>
                         <div id="linevert"></div>
-                        <div id="whyusbox">
+                        <div id="pdfbox">
                             <div id="wwophotodiv">
-                                <p style="color: rgb(83, 83, 83);font-size: 1.3vw; text-align: center; margin-top: 1vw; font-family: 'Oxygen', sans-serif;"><mark style="background-color: rgb(196, 196, 196);">Report</mark></p>
+                                <p id="reporthead"><mark style="background-color: rgb(224, 250, 255);">Report</mark></p>
                                 
                                 <div style="display: flex; justify-content: center;">
                                     <img id="reportimg" src="assets\report.png" alt="">
                                 </div>
-                                <p style="color: rgb(83, 83, 83);font-size: 1.3vw; text-align: center; margin-top: 1vw; font-family: 'Oxygen', sans-serif;">Equitas Small <br> Finance Bank</p>
-                                <p style="color: rgb(83, 83, 83);font-size: 1vw; text-align: center; margin-top: 1vw; font-family: 'Oxygen', sans-serif;">Special Opportunity  <br>played out well</p>
+                                <p id="pdftitle1">Equitas Small <br> Finance Bank</p>
+                                <p id="pdftitle2">Special Opportunity  <br>played out well</p>
                                 <button id="pdfbtn" onclick="openPDF()">Open PDF</button>
                                 <script>
                                     function openPDF() {
@@ -81,81 +82,9 @@
                                 </script>
                             </div>
                         </div>
-                        <div id="linevert"></div>
-                        <div id="whyusbox">
-                            <div id="wwophotodiv">
-                                <p style="color: rgb(83, 83, 83);font-size: 1.3vw; text-align: center; margin-top: 1vw; font-family: 'Oxygen', sans-serif;"><mark style="background-color: rgb(196, 196, 196);">Report</mark></p>
-                                
-                                <div style="display: flex; justify-content: center;">
-                                    <img id="reportimg" src="assets\report.png" alt="">
-                                </div>
-                                <p style="color: rgb(83, 83, 83);font-size: 1.3vw; text-align: center; margin-top: 1vw; font-family: 'Oxygen', sans-serif;">Equitas Small <br> Finance Bank</p>
-                                <p style="color: rgb(83, 83, 83);font-size: 1vw; text-align: center; margin-top: 1vw; font-family: 'Oxygen', sans-serif;">Special Opportunity  <br>played out well</p>
-                                <button id="pdfbtn" onclick="openPDF()">Open PDF</button>
-                                <script>
-                                    function openPDF() {
-                                        window.open('report_assets/3_3_2023.pdf', '_blank');
-                                    }
-                                </script>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="linehori"></div>
-                    <div style="display: inline-flex;">
-                        <div id="whyusbox">
-                            <div id="wwophotodiv">
-                                <p style="color: rgb(83, 83, 83);font-size: 1.3vw; text-align: center; margin-top: 1vw; font-family: 'Oxygen', sans-serif;"><mark style="background-color: rgb(196, 196, 196);">Report</mark></p>
-                                
-                                <div style="display: flex; justify-content: center;">
-                                    <img id="reportimg" src="assets\report.png" alt="">
-                                </div>
-                                <p style="color: rgb(83, 83, 83);font-size: 1.3vw; text-align: center; margin-top: 1vw; font-family: 'Oxygen', sans-serif;">Equitas Small <br> Finance Bank</p>
-                                <p style="color: rgb(83, 83, 83);font-size: 1vw; text-align: center; margin-top: 1vw; font-family: 'Oxygen', sans-serif;">Special Opportunity  <br>played out well</p>
-                                <button id="pdfbtn" onclick="openPDF()">Open PDF</button>
-                                <script>
-                                    function openPDF() {
-                                        window.open('report_assets/3_3_2023.pdf', '_blank');
-                                    }
-                                </script>
-                            </div>
-                        </div>
-                        <div id="linevert"></div>
-                        <div id="whyusbox">
-                            <div id="wwophotodiv">
-                                <p style="color: rgb(83, 83, 83);font-size: 1.3vw; text-align: center; margin-top: 1vw; font-family: 'Oxygen', sans-serif;"><mark style="background-color: rgb(196, 196, 196);">Report</mark></p>
-                                
-                                <div style="display: flex; justify-content: center;">
-                                    <img id="reportimg" src="assets\report.png" alt="">
-                                </div>
-                                <p style="color: rgb(83, 83, 83);font-size: 1.3vw; text-align: center; margin-top: 1vw; font-family: 'Oxygen', sans-serif;">Equitas Small <br> Finance Bank</p>
-                                <p style="color: rgb(83, 83, 83);font-size: 1vw; text-align: center; margin-top: 1vw; font-family: 'Oxygen', sans-serif;">Special Opportunity  <br>played out well</p>
-                                <button id="pdfbtn" onclick="openPDF()">Open PDF</button>
-                                <script>
-                                    function openPDF() {
-                                        window.open('report_assets/3_3_2023.pdf', '_blank');
-                                    }
-                                </script>
-                            </div>
-                        </div>
-                        <div id="linevert"></div>
-                        <div id="whyusbox">
-                            <div id="wwophotodiv">
-                                <p style="color: rgb(83, 83, 83);font-size: 1.3vw; text-align: center; margin-top: 1vw; font-family: 'Oxygen', sans-serif;"><mark style="background-color: rgb(196, 196, 196);">Report</mark></p>
-                                
-                                <div style="display: flex; justify-content: center;">
-                                    <img id="reportimg" src="assets\report.png" alt="">
-                                </div>
-                                <p style="color: rgb(83, 83, 83);font-size: 1.3vw; text-align: center; margin-top: 1vw; font-family: 'Oxygen', sans-serif;">Equitas Small <br> Finance Bank</p>
-                                <p style="color: rgb(83, 83, 83);font-size: 1vw; text-align: center; margin-top: 1vw; font-family: 'Oxygen', sans-serif;">Special Opportunity  <br>played out well</p>
-                                <button id="pdfbtn" onclick="openPDF()">Open PDF</button>
-                                <script>
-                                    function openPDF() {
-                                        window.open('report_assets/3_3_2023.pdf', '_blank');
-                                    }
-                                </script>
-                            </div>
-                        </div>
-                    </div>
+                        
+                    </div> 
+                    <div id="linehorinsights"></div>                   
                 </div>
                 
             </div>
